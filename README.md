@@ -27,6 +27,19 @@ Bikeshare Explorer also requires three data files in CSV format, which are not a
 
 ### Installation
 
+You must have Python installed on your computer and in your Path environment statement to use Bikeshare Explorer.
+
+Install the following files into a folder on your computer:
+* bikeshare_2.py
+* readme.md
+
+Place the following files into the same folder:
+* chicago.csv
+* new_york_city.csv
+* washington.csv
+
+These files are available as part of the Udacity Course - Programming for Data Science with Python.
+
 ### How to use Bikeshare Explorer
 
 To run Bikeshare Explorer simply type the following command into a command terminal:
