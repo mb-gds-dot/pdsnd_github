@@ -64,9 +64,15 @@ def enter_option_number(top_value):
     while option_num < 1 or option_num > top_value:
         try:
             print_table_row('', '', False, 0, 0)
-            option_num = int(input('│  Enter Option Number:                                    │  '))
+            option_val = input('│  Enter Option Number:                                    │  ')
+            option_num = int(option_val)
         except ValueError:
-            option_num = 0
+            if option_val.upper() == 'YES' or option_val.upper() == 'Y':
+                option_num = 1
+            elif option_val.upper() == 'NO' or option_val.upper() == 'N':
+                option_num = 2
+            else:
+                option_num = 0
         if option_num == 9:
             reprint_previous_row('Enter Option Number:', '9. Exit - Execution Stopped')
             print_table_row('', '', False, 0, 0)
@@ -444,6 +450,8 @@ def print_table_line(position):
         print('├──────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────┤')
     elif position == 'bottom':
         print('└──────────────────────────────────────────────────────────┴──────────────────────────────────────────────────────────┘')
+    else:
+        print('───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────')
 
 
 
