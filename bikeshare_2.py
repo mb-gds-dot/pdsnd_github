@@ -1,3 +1,32 @@
+# ┌──────────────────────────────────────────────────────────┬──────────────────────────────────────────────────────────┐
+# │   Bikeshare Explorer                                     │                                                          │
+# │   ==================                                     │                                                          │
+# │                                                          │                                                          │
+# │   Bikeshare Explorer provides statistics about bikeshare │   Bikeshare Explorer was created by Matthew Bulloch.     │
+# │   services in the following cities:                      │                                                          │
+# │                                                          │   This project was created as part of an RMIT / Udacity  │
+# │       Chicago                                            │   course:                                                │
+# │       New York City                                      │                                                          │
+# │       Washington DC                                      │       Programming for Data Science with Python           │
+# │                                                          │                                                          │
+# │   Data covers the period 1 January 2017 to 30 June 2017. │   For further information contact:                       │
+# │                                                          │                                                          │
+# │   Data can be filtered by city, month, and weekday.      │       Matthew Bulloch                                    │
+# │                                                          │       matthew.bulloch@dgs.vic.gov.au                     │
+# │   Bikeshare Explorer is written in Python.               │                                                          │
+# │                                                          │                                                          │
+# │   Bikeshare Explorer can be run from the command line    │                                                          │
+# │   using the following command:                           │                                                          │
+# │                                                          │                                                          │
+# │       python.exe bikeshare_2.py                          │                                                          │
+# │                                                          │                                                          │
+# │   For further details please refer to the following      │                                                          │
+# │   file:                                                  │                                                          │
+# │                                                          │                                                          │
+# │       README.md                                          │                                                          │
+# │                                                          │                                                          │
+# └──────────────────────────────────────────────────────────┴──────────────────────────────────────────────────────────┘
+
 import time
 import pandas as pd
 import numpy as np
